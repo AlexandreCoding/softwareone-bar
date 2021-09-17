@@ -1,12 +1,12 @@
-@media screen and (max-width: 415px){
+@media screen and (max-width: 545px){
     html {
-        font-size: 10px;
+        font-size: 8px;
     }
 }
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 325px){
     html {
-        font-size: 8px;
+        font-size: 6px;
     }
 }
 
@@ -77,6 +77,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     -webkit-box-shadow: inset 0px 20px 23px 5px rgba(0,0,0,0.8); 
     box-shadow: inset 0px 20px 23px 5px rgba(0,0,0,0.8);
 }
@@ -135,9 +136,13 @@ body {
 }
 
 .menu__options__option p {
+    padding: 5px;
     color: goldenrod;
+    background-color: #f3f3f3;
     font-size: 1.25em;
     font-weight: bold;
+    border: solid 2px goldenrod;
+    border-radius: 4px;
 }
 
 .menu__options__option img {
@@ -145,6 +150,8 @@ body {
     width: 200px;
     object-fit: cover;
     border-radius: 20px;
+    -webkit-box-shadow: 5px 10px 20px 0px rgba(0,0,0,0.6); 
+    box-shadow: 5px 10px 20px 0px rgba(0,0,0,0.6);
 }
 
 .menu__button {
